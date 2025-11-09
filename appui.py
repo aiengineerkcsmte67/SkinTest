@@ -23,7 +23,7 @@ st.write("""
     **คำเตือน:** ผลลัพธ์จากระบบนี้เป็นเพียงการประเมินเบื้องต้นเท่านั้น โปรดปรึกษาแพทย์ผู้เชี่ยวชาญเพื่อการวินิจฉัยที่ถูกต้อง
 """)
 
-MODEL_FILENAME = 'skin-cancer-aiv2/SkinCancer_model_V1.keras'
+MODEL_FILENAME = 'SkinCancer_model_V1.keras'
 try:
     model = load_model(MODEL_FILENAME)
 except FileNotFoundError:
